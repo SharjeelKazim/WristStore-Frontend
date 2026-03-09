@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import NewArrival from "@/components/NewArrival";
 import OurStory from "@/components/OurStory";
 import Products from "@/components/Products";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
 <Featured/>
 <OurStory/>
 <Products/>
-<Testimonials/>
+{/* <Testimonials/> */}
 <NewArrival/>
 <Footer/>
 </>  

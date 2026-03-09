@@ -1,5 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
+import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
@@ -117,7 +118,7 @@ insight is overlooked.`,
 ];
 
 export default function NewArrival() {
-  const swiperRef = useRef<any>(null);
+  const swiperRef = useRef<SwiperType | null>(null);
   const [currentSlide, setCurrentSlide] = useState(1);
 
   return (
@@ -159,7 +160,7 @@ export default function NewArrival() {
                 <h2 className="text-2xl text-black font-bold mb-2">
                   {theme.title}
                 </h2>
-                <div className="h-1 w-[100%] rounded-full bg-linear-to-r from-pink-500 via-purple-500 to-blue-500 mb-4"></div>
+                <div className="h-1 w-full rounded-full bg-linear-to-r from-pink-500 via-purple-500 to-blue-500 mb-4"></div>
                 <p className="text-black mb-2">{theme.description}</p>
                 <div className="text-left">
                   <h3 className="font-bold text-2xl mb-2 text-black">

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 import { BiShoppingBag } from "react-icons/bi";
 import { PiMoonBold } from "react-icons/pi";
@@ -13,10 +14,10 @@ const Hero = () => {
           <h1 className="font-bold text-md tracking-widest">THE CLOCK LOOKOUT</h1>
 
           <ul className="flex gap-8 text-sm">
-            <li className="cursor-pointer hover:text-[#FFB568]">Home</li>
-            <li className="cursor-pointer hover:text-[#FFB568]">Featured</li>
-            <li className="cursor-pointer hover:text-[#FFB568]">Products</li>
-            <li className="cursor-pointer hover:text-[#FFB568]">New</li>
+            <Link href="/"><li className="cursor-pointer hover:text-[#FFB568]">Home</li></Link>
+            <Link href="/featured"><li className="cursor-pointer hover:text-[#FFB568]">Featured</li></Link>
+            <Link href="/products"><li className="cursor-pointer hover:text-[#FFB568]">Products</li></Link>
+            <Link href="/new"><li className="cursor-pointer hover:text-[#FFB568]">New</li></Link>
           </ul>
         </div>
 
