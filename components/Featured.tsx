@@ -16,7 +16,7 @@ const Featured = () => {
                   <img
                     src="/watch.png"
                     alt="watch"
-                    className="w-100 object-contain"
+                    className="w-100 object-contain hover:scale-110 transition-transform duration-500"
                   />
                   <h1 className="text-[26px] font-bold text-center">
                     JAZZMASTER
@@ -33,7 +33,7 @@ const Featured = () => {
                   <img
                     src="/watch.png"
                     alt="watch"
-                    className="w-100 object-contain"
+                    className="w-100 object-contain hover:scale-110 transition-transform duration-500"
                   />
                   <h1 className="text-[26px] font-bold text-center">
                     LONGINES ROSE
@@ -50,7 +50,7 @@ const Featured = () => {
                   <img
                     src="/watch.png"
                     alt="watch"
-                    className="w-100 object-contain"
+                    className="w-100 object-contain hover:scale-110 transition-transform duration-500"
                   />
                   <h1 className="text-[26px] font-bold text-center">
                     DREYFUSS GOLD

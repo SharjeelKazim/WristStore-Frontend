@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="w-1/2  relative px-16 py-10">
 
         <div className="flex justify-between items-center">
-          <h1 className="font-bold text-lg tracking-widest">WRIST STORE</h1>
+          <h1 className="font-bold text-md tracking-widest">THE CLOCK LOOKOUT</h1>
 
           <ul className="flex gap-8 text-sm">
             <li className="cursor-pointer hover:text-[#FFB568]">Home</li>

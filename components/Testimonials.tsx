@@ -31,7 +31,7 @@ const Testimonials = () => {
           {/* Profile */}
           <div className="flex items-center gap-4 mb-10">
             <img
-              src="/profile.png"
+              src="/watch.png"
               alt="profile"
               className="w-12 h-12 rounded-full"
             />

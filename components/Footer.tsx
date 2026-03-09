@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="w-full">
 
       {/* Newsletter Section */}
-      <div className="bg-[#f39a56] py-20">
+      <div className="bg-[#FFB568] py-20">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 items-center gap-10">
 
           {/* Left Text */}
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Links */}
-      <div className="bg-[#d9c1bf] py-16">
+      <div className="bg-[#fde3c8] py-16">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-12">
 
           {/* Information */}
