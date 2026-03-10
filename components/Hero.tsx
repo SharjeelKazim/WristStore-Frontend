@@ -32,7 +32,7 @@ const Hero = () => {
           </p>
 
           <p className="text-[#FFB568] text-xl font-semibold mt-6">
-            $1245
+            $1240
           </p>
 
           <div className="flex  mt-8">
@@ -42,6 +42,9 @@ const Hero = () => {
 
             <button className="px-6 py-3 bg-black text-white hover:bg-gray-800 cursor-pointer">
               ADD TO CART
+            </button>
+            <button>
+              Hi
             </button>
           </div>
         </div>
